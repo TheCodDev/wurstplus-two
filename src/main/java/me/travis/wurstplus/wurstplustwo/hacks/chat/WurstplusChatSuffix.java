@@ -20,7 +20,7 @@ public class WurstplusChatSuffix extends WurstplusHack {
 
 		this.name        = "Chat Suffix";
 		this.tag         = "ChatSuffix";
-		this.description = "show off how cool u are";
+		this.description = "Advertise Your Private Client";
 	}
 
 	WurstplusSetting ignore = create("Ignore", "ChatSuffixIgnore", true);
@@ -33,30 +33,30 @@ public class WurstplusChatSuffix extends WurstplusHack {
 	StringBuilder suffix;
 
 	String[] random_client_name = {
-		"chad",
-		"tabott",
-		"travis",
-		"unco",
-		"kiwi",
-		"xdolf",
-		"eightsixfour",
-		"biggus",
-		"naughty",
-		"jumpy",
-		"chae",
-		"wurst",
-		"buttfuhk"
+		"Lynx",
+		"Lynx",
+		"Lynx",
+		"Lynx",
+		"Lynx",
+		"Lynx",
+		"Lynx",
+		"Lynx",
+		"Lynx",
+		"Lynx",
+		"Lynx",
+		"Lynx",
+		"omegalul"
 	};
 
 	String[] random_client_finish = {
-		" plus",
-		" epic",
-		"god",
-		" sex",
-		" blue",
-		" brown",
-		" gay",
-		"plus",
+		" PogChamp",
+		" Premium",
+		"Backdoor",
+		" Unregistered Edition",
+		" Ratted Edition",
+		" God Mode Edition",
+		" UltraPlus Black Hole Edition",
+		"Nerd Edition",
 		""
 	};
 
@@ -106,7 +106,7 @@ public class WurstplusChatSuffix extends WurstplusHack {
 		if (accept_suffix) {
 			if (suffix_default) {
 				// Just default.
-				message += Wurstplus.WURSTPLUS_SIGN + convert_base("wurstplus two");
+				message += Wurstplus.WURSTPLUS_SIGN + convert_base("Lynx");
 			}
 
 			if (suffix_random) {
