@@ -7,8 +7,9 @@ I think this is public, I don't know, I don't know github, if so then I guess th
 don't download this dammit.
 
 ### creds
+> Travis for the whole client
 > Rina (Turok) for the framework & bope [https://github.com/SirRina & https://discord.gg/teMyX8] <br>
 > Salhack & phobos for misc stuff [https://github.com/ionar2/salhack] <br>
 > tabbott for trying his best in the early stages of development <3
-> Travis for basically the whole client
+
 
