@@ -22,7 +22,7 @@ public class WurstplusTotempop extends WurstplusHack {
 
 		this.name        = "Totem Pop Counter";
 		this.tag         = "TotemPopCounter";
-		this.description = "dude idk wurst+ is just outdated";
+		this.description = "Meme Creator";
     }
 
     public static final HashMap<String, Integer> totem_pop_counter = new HashMap<String, Integer>();
