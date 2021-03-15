@@ -35,7 +35,7 @@ public class WurstplusNameTags extends WurstplusHack {
 
         this.name = "Name Tags";
         this.tag = "NameTags";
-        this.description = "MORE DETAILED NAMESSSSS";
+        this.description = "Hax Names";
     }
 
     WurstplusSetting show_armor = create("Armor", "NametagArmor", true);
