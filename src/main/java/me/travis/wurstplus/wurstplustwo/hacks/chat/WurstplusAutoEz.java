@@ -24,7 +24,7 @@ public class WurstplusAutoEz extends WurstplusHack {
 
         this.name = "Auto Ez";
         this.tag = "AutoEz";
-        this.description = "you just got nae nae'd by wurst+... 2";
+        this.description = "EZ You got owned by Lynx nn!";
     }
 
     int delay_count = 0;
@@ -108,10 +108,10 @@ public class WurstplusAutoEz extends WurstplusHack {
         if (custom.get_value(true)) {
             message += WurstplusEzMessageUtil.get_message().replace("[", "").replace("]", "");
         } else {
-            message += "you just got nae nae'd by wurst+2";
+            message += "EZ You got owned by Lynx nn!";
         }
         if (discord.get_value(true)) {
-            message += " - discord.gg/wurst";
+            message += " - discord.gg/cpvp";
         }
         mc.player.connection.sendPacket(new CPacketChatMessage(message));
     }
