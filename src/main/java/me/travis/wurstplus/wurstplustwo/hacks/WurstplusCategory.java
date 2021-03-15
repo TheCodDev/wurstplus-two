@@ -1,15 +1,15 @@
 package me.travis.wurstplus.wurstplustwo.hacks;
 
 public enum WurstplusCategory {
-	WURSTPLUS_CHAT ("Chat", "WurstplusChat", false),
-	WURSTPLUS_COMBAT ("Combat", "WurstplusCombat", false),
-	WURSTPLUS_MOVEMENT ("Movement", "WurstplusMovement", false),
-	WURSTPLUS_RENDER ("Render", "WurstplusRender", false),
-	WURSTPLUS_EXPLOIT ("Exploit", "WurstplusExploit", false),
-	WURSTPLUS_MISC ("Misc", "WurstplusMisc", false),
-	WURSTPLUS_GUI ("GUI", "WurstplusGUI", false),
-	WURSTPLUS_BETA ("Beta", "WurstplusBeta", false),
-	WURSTPLUS_HIDDEN ("Hidden", "WurstplusHidden", true);
+	WURSTPLUS_CHAT ("Chat", "LynxChat", false),
+	WURSTPLUS_COMBAT ("Combat", "LynxCombat", false),
+	WURSTPLUS_MOVEMENT ("Movement", "LynxMovement", false),
+	WURSTPLUS_RENDER ("Render", "LynxRender", false),
+	WURSTPLUS_EXPLOIT ("Exploit", "LynxExploit", false),
+	WURSTPLUS_MISC ("Misc", "LynxMisc", false),
+	WURSTPLUS_GUI ("GUI", "LynxGUI", false),
+	WURSTPLUS_BETA ("Beta", "LynxBeta", false),
+	WURSTPLUS_HIDDEN ("Hidden", "LynxHidden", true);
 
 	String name;
 	String tag;
